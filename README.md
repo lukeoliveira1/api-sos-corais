@@ -1,4 +1,3 @@
 # sos-corais
-An API to front-end of sos-corais.
-
+An API for sos-corais front-end.
 
