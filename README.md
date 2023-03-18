@@ -2,3 +2,4 @@
 An API for sos-corais front-end.
 
 - Search filters with django-filters
+- API documentation with Swagger.
