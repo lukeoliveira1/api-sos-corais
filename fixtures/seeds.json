@@ -1,0 +1,57 @@
+[
+  {
+    "model": "soscorais.Registration",
+    "pk": 1,
+    "fields": {
+      "nameStudentOne": "Jonathan Ferreira",
+      "nameStudentTwo": "Marcos Botelho",
+      "nameAdvisorOne": "André Silva",
+      "nameAdvisorTwo": "Murilo Almeida",
+      "nameSchool": "EMGA",
+      "nameArticle": "Corais em alerta: o branqueamento dos corais nos recifes de SP",
+      "article": "media/articles/test-article.pdf"
+    }
+  },
+  {
+    "model": "soscorais.Registration",
+    "pk": 2,
+    "fields": {
+      "nameStudentOne": "Emily Gomes",
+      "nameStudentTwo": "Thiago Molina",
+      "nameAdvisorOne": "Michael Rodriguez",
+      "nameAdvisorTwo": "Sarah Coelho",
+      "nameSchool": "EEMGA",
+      "nameArticle": "Biotecnologia para os corais: tratando o branqueamento dos corais",
+      "article": "media/articles/test-article.pdf"
+    }
+  },
+  {
+    "model": "soscorais.Registration",
+    "pk": 3,
+    "fields": {
+      "nameStudentOne": "Alice Carvalho",
+      "nameStudentTwo": "Bruno Silva",
+      "nameAdvisorOne": "Marina Lucena",
+      "nameAdvisorTwo": "Charles França",  
+      "nameSchool": "EEJH",
+      "nameArticle": "Natureza em perigo: o desenvolvimento do branqueamento dos corais",
+      "article": "media/articles/test-article.pdf"
+    }
+  },
+  {
+    "model": "administrators.Administrator",
+    "pk": 1,
+    "fields": {
+      "username": "user1",
+      "password": "1234"
+    }
+  },
+  {
+    "model": "administrators.Administrator",
+    "pk": 2,
+    "fields": {
+      "username": "admin",
+      "password": "1234"
+    }
+  }
+]
