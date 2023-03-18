@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from rest_framework import routers
 
 from soscorais.views import RegistrationViewSet
-from administrators.views import AdministratorViewSet
+from administrators.views import AdministratorViewSet, LoginView
 
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
@@ -30,5 +30,6 @@ router.register('Administrators', AdministratorViewSet, basename='Administrators
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('login/', LoginView.as_view(), name='login'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
